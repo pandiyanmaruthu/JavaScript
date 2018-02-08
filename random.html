@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Random number Generation</title>
+</head>
+<body>
+<p id="demo">We are generating Random Numbers between 1 to 10</p>
+<button onclick="document.getElementById('demo').innerHTML=ranfun(1,10)">click generation</button>
+<script>
+function ranfun(x,y)
+{
+	return Math.floor(Math.random()*(y-x));
+}
+</script>
+</body>
+</html>
+
